@@ -18,8 +18,7 @@
   Free Jupyter Book covering Monte Carlo risk modeling with heavy-tailed
   distributions, Bayesian inference for triage and calibration, survival
   analysis for time-to-event scenarios, and causal inference fundamentals. Live
-  at [security-decision-science.github.io](https://security-decision-science.git
-  hub.io).
+  at [security-decision-science.github.io](https://security-decision-science.github.io) (coming soon)
 
   ### [security-decision-labs](https://github.com/security-decision-science/security-decision-labs) 
   — FAIR Simulator app
