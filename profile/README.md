@@ -21,8 +21,7 @@
   at [security-decision-science.github.io](https://security-decision-science.github.io) (coming soon)
 
   ### [security-decision-labs](https://github.com/security-decision-science/security-decision-labs) 
-  — FAIR Simulator app
-  Interactive Monte Carlo FAIR risk quantification tool. LEF/LM simulation,
+  FAIR Simulator app. Interactive Monte Carlo FAIR risk quantification tool. LEF/LM simulation,
   portfolio aggregation, sensitivity analysis, and IRIS 2025 industry
   benchmarks. TypeScript + Python.
 
