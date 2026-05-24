@@ -12,7 +12,7 @@ Monte Carlo · Bayesian · Survival Analysis · Causal Inference · Game Theory 
 
 ### [security-decision-science](https://github.com/security-decision-science/security-decision-science) — Notebooks & live docs
 
-19 interactive Jupyter notebooks across 4 parts: statistical foundations, decision frameworks, behavioral traps, and causal & strategic reasoning — all applied to security. Powered by the companion `decision-security` library.
+19 interactive Jupyter notebooks across 4 parts: statistical foundations, decision frameworks, behavioral traps, and causal & strategic reasoning applied to security. Powered by the companion `decision-security` library.
 
 **[Live docs →](https://security-decision-science.github.io/security-decision-science/)**
 
