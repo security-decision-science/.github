@@ -1,32 +1,33 @@
 # Security Decision Science
 
-Practical tools and notebooks for turning security data into decisions.
+Open-source tools for empirical cyber risk quantification.
 
-Part of [Apropos Security](https://apropos-security.com) · [Blog](https://medium.com/apropos-security) · [LinkedIn](https://www.linkedin.com/in/voiculaura/)
+[Apropos Security](https://apropos-security.com) · [Medium](https://medium.com/apropos-security) · [LinkedIn](https://www.linkedin.com/in/voiculaura/)
 
-Monte Carlo · Bayesian · Survival Analysis · Causal Inference · Game Theory · FAIR
+FAIR · FAIR-CAM · Agent-Based Modeling · Monte Carlo · Bayesian · Survival Analysis
 
 ---
 
 ## Projects
 
-### [security-decision-science](https://github.com/security-decision-science/security-decision-science) — Notebooks & live docs
+### [security-decision-labs](https://github.com/security-decision-science/security-decision-labs) — Tools
 
-19 interactive Jupyter notebooks across 4 parts: statistical foundations, decision frameworks, behavioral traps, and causal & strategic reasoning applied to security. Powered by the companion `decision-security` library.
+Cyber risk quantification toolkit. All tools are CC BY-NC-SA 4.0.
 
-**[Live docs →](https://security-decision-science.github.io/security-decision-science/)**
+| Tool | What it does                                                                                                                                                                                    | Install |
+|------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| **[Control Systems ABM](https://github.com/security-decision-science/security-decision-labs/tree/main/tools/control-systems-agent-based-model)** | FAIR-CAM agent-based control dynamics simulation. Eight agent types, three-source variance, budget-constrained remediation, narrative causation. Reproduction package for Jones & Voicu (2026). | `git clone` |
+| **[TEF Estimator](https://github.com/security-decision-science/security-decision-labs/tree/main/tools/tef-estimator)** | Data-grounded Threat Event Frequency estimation. Four-vector decomposition, three-anchor triangulation, continuous telemetry monitoring.                                                        | `pip install tef-estimator` |
+| **[LLM Classification Validator](https://github.com/security-decision-science/security-decision-labs/tree/main/tools/llm-classification-validator)** | Five-dimension psychometric validation for LLM-generated classifications. Published with [Cloud Security Alliance](https://cloudsecurityalliance.org/).                                         | `git clone` |
+| **[FAIR Risk Quantification](https://github.com/security-decision-science/security-decision-labs/tree/main/tools/fair-simulator)** | Monte Carlo FAIR risk quantification with IRIS 2025 benchmarks. LEF/LM simulation, portfolio aggregation, sensitivity analysis.                                                                 | `git clone` |
+
+### [security-decision-science](https://github.com/security-decision-science/security-decision-science) — Notebooks
+
+19 interactive Jupyter notebooks: statistical foundations, decision frameworks, behavioral traps, causal reasoning applied to security. **[Live docs →](https://security-decision-science.github.io/security-decision-science/)**
 
 ### [decision-security](https://github.com/security-decision-science/decision-security) — Python library
 
-Reusable decision-science toolkit for security. Monte Carlo simulation (VaR/ES), Beta-Binomial and Normal Bayesian updates, Kaplan-Meier and Nelson-Aalen survival estimation, EVPI value-of-information, lightweight causal DAGs, and visualization helpers.
-
-```bash
-pip install --pre decision-security
-```
-
-### [security-decision-labs](https://github.com/security-decision-science/security-decision-labs) — Interactive tools
-
-FAIR Simulator and Control Systems Agent-Based Model. Monte Carlo FAIR risk quantification with IRIS 2025 benchmarks, and FAIR-CAM control dynamics simulation.
+Monte Carlo (VaR/ES), Bayesian updates, survival estimation, value-of-information, causal DAGs. `pip install decision-security`
 
 ---
 
