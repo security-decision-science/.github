@@ -1,6 +1,6 @@
 # Security Decision Science
 
-Open-source tools for empirical cyber risk quantification.
+Open-source tools for empirical cyber risk quantification. Built and maintained by Laura Voicu.
 
 [Apropos Security](https://apropos-security.com) · [Medium](https://medium.com/apropos-security) · [LinkedIn](https://www.linkedin.com/in/voiculaura/)
 
